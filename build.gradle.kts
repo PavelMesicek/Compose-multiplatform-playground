@@ -1,4 +1,4 @@
-import app.futured.kmptemplate.gradle.task.LintCheckTask
+import com.moonlight.composeplayground.gradle.task.LintCheckTask
 import io.gitlab.arturbosch.detekt.report.ReportMergeTask
 
 tasks.register<LintCheckTask>("lintCheck")

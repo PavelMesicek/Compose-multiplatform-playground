@@ -1,4 +1,4 @@
-import app.futured.kmptemplate.gradle.configuration.ProjectSettings
+import com.moonlight.composeplayground.gradle.configuration.ProjectSettings
 
 plugins {
     // Wondering why not `alias`? https://github.com/gradle/gradle/issues/17968

@@ -1,6 +1,6 @@
-ENV['APP_IDENTIFIER'] = 'app.futured.***'
-ENV['APP_NAME'] = '***'
-ENV['APP_SCHEME'] = '***'
+ENV['APP_IDENTIFIER'] = 'com.moonlight.composeplayground'
+ENV['APP_NAME'] = 'composeplayground'
+ENV['APP_SCHEME'] = 'composeplayground'
 
 ENV['BADGE_DARK'] = 'true'
 

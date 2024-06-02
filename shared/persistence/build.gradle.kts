@@ -1,5 +1,5 @@
-import app.futured.kmptemplate.gradle.configuration.ProjectSettings
-import app.futured.kmptemplate.gradle.ext.iosTargets
+import com.moonlight.composeplayground.gradle.configuration.ProjectSettings
+import com.moonlight.composeplayground.gradle.ext.iosTargets
 
 plugins {
     id(libs.plugins.com.android.library.get().pluginId)

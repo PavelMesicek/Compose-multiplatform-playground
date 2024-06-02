@@ -30,13 +30,13 @@
 }
 
 # TODO update package name
--keep,includedescriptorclasses class app.futured.kmptemplate.**$$serializer { *; }
+-keep,includedescriptorclasses class com.moonlight.composeplayground.**$$serializer { *; }
 # TODO update package name
--keepclassmembers class app.futured.kmptemplate.** {
+-keepclassmembers class com.moonlight.composeplayground.** {
     *** Companion;
 }
 # TODO update package name
--keepclasseswithmembers class app.futured.kmptemplate.** {
+-keepclasseswithmembers class com.moonlight.composeplayground.** {
     kotlinx.serialization.KSerializer serializer(...);
 }
 
