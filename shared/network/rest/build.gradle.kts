@@ -1,6 +1,6 @@
+import com.codingfeline.buildkonfig.compiler.FieldSpec.Type.STRING
 import com.moonlight.composeplayground.gradle.configuration.ProjectSettings
 import com.moonlight.composeplayground.gradle.ext.iosTargets
-import com.codingfeline.buildkonfig.compiler.FieldSpec.Type.STRING
 
 plugins {
     id(libs.plugins.com.android.library.get().pluginId)

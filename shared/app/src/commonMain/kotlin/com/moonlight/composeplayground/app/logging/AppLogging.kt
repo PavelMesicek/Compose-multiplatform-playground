@@ -1,9 +1,9 @@
 package com.moonlight.composeplayground.app.logging
 
-import com.moonlight.composeplayground.app.crashreporting.CrashlyticsReporter
 import co.touchlab.kermit.LogWriter
 import co.touchlab.kermit.Logger
 import co.touchlab.kermit.Severity
+import com.moonlight.composeplayground.app.crashreporting.CrashlyticsReporter
 import kotlin.coroutines.cancellation.CancellationException
 import com.moonlight.composeplayground.network.graphql.result.NetworkError as GraphqlNetworkError
 import com.moonlight.composeplayground.network.rest.result.NetworkError as RestNetworkError

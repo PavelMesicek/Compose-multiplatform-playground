@@ -1,11 +1,11 @@
 package com.moonlight.composeplayground.network.graphql.client
 
+import com.apollographql.apollo3.api.Mutation
+import com.apollographql.apollo3.api.Query
 import com.moonlight.composeplayground.network.graphql.ext.isUnauthorizedCloudError
 import com.moonlight.composeplayground.network.graphql.result.CloudErrorCode
 import com.moonlight.composeplayground.network.graphql.result.NetworkError
 import com.moonlight.composeplayground.network.graphql.result.NetworkResult
-import com.apollographql.apollo3.api.Mutation
-import com.apollographql.apollo3.api.Query
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map

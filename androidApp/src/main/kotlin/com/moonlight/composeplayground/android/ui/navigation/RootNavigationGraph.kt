@@ -7,11 +7,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import com.arkivanov.decompose.router.slot.ChildSlot
 import com.moonlight.composeplayground.android.ui.screen.LoginScreenUi
 import com.moonlight.composeplayground.feature.navigation.root.RootDestination
 import com.moonlight.composeplayground.feature.navigation.root.RootEntry
 import com.moonlight.composeplayground.feature.navigation.root.RootNavigation
-import com.arkivanov.decompose.router.slot.ChildSlot
 
 @Composable
 fun RootNavGraph(

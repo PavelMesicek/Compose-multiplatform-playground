@@ -1,5 +1,3 @@
-import org.gradle.kotlin.dsl.dependencies
-import org.gradle.kotlin.dsl.withType
 import org.gradle.accessors.dm.LibrariesForLibs
 
 // As of now, we cannot use Gradle version catalogs with Precompiled Script plugins: https://github.com/gradle/gradle/issues/15383

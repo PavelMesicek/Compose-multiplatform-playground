@@ -1,9 +1,9 @@
 package com.moonlight.composeplayground.android.ui.theme
 
-import com.moonlight.composeplayground.android.tools.Constants
 import com.arkivanov.decompose.extensions.compose.stack.animation.StackAnimation
 import com.arkivanov.decompose.extensions.compose.stack.animation.StackAnimationProvider
 import com.arkivanov.decompose.extensions.compose.stack.animation.stackAnimation
+import com.moonlight.composeplayground.android.tools.Constants
 
 /**
  * Stack animation provides animation for all stacks, not necessary to implement fallback animation in children components.

@@ -1,7 +1,7 @@
 package com.moonlight.composeplayground.util.arch
 
-import com.moonlight.composeplayground.util.ext.componentCoroutineScope
 import com.arkivanov.decompose.ComponentContext
+import com.moonlight.composeplayground.util.ext.componentCoroutineScope
 import org.koin.core.component.KoinComponent
 
 /**

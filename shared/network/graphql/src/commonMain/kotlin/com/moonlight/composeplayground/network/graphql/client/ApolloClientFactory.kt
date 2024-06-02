@@ -1,15 +1,15 @@
 package com.moonlight.composeplayground.network.graphql.client
 
-import com.moonlight.composeplayground.network.graphql.cache.NetworkNormalizedCacheFactory
-import com.moonlight.composeplayground.network.graphql.cache.NormalizedCacheKeyGenerator
-import com.moonlight.composeplayground.network.graphql.interceptor.LoggingInterceptorFactory
-import com.moonlight.composeplayground.network.graphql.tools.Constants
 import com.apollographql.apollo3.ApolloClient
 import com.apollographql.apollo3.cache.normalized.FetchPolicy
 import com.apollographql.apollo3.cache.normalized.fetchPolicy
 import com.apollographql.apollo3.cache.normalized.normalizedCache
 import com.apollographql.apollo3.network.http.DefaultHttpEngine
 import com.apollographql.apollo3.network.http.HttpNetworkTransport
+import com.moonlight.composeplayground.network.graphql.cache.NetworkNormalizedCacheFactory
+import com.moonlight.composeplayground.network.graphql.cache.NormalizedCacheKeyGenerator
+import com.moonlight.composeplayground.network.graphql.interceptor.LoggingInterceptorFactory
+import com.moonlight.composeplayground.network.graphql.tools.Constants
 import org.koin.core.annotation.Single
 
 @Single

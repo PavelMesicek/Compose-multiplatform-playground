@@ -1,5 +1,6 @@
 package com.moonlight.composeplayground.feature.navigation.home
 
+import com.arkivanov.decompose.ComponentContext
 import com.moonlight.composeplayground.feature.ui.first.FirstComponent
 import com.moonlight.composeplayground.feature.ui.first.FirstScreen
 import com.moonlight.composeplayground.feature.ui.second.SecondComponent
@@ -10,7 +11,6 @@ import com.moonlight.composeplayground.feature.ui.third.ThirdComponent
 import com.moonlight.composeplayground.feature.ui.third.ThirdScreen
 import com.moonlight.composeplayground.util.arch.Destination
 import com.moonlight.composeplayground.util.arch.NavEntry
-import com.arkivanov.decompose.ComponentContext
 import kotlinx.serialization.Serializable
 
 @Serializable

@@ -1,12 +1,12 @@
 package com.moonlight.composeplayground.app.logging
 
-import com.moonlight.composeplayground.app.crashreporting.CrashlyticsReporter
 import co.touchlab.kermit.DefaultFormatter
 import co.touchlab.kermit.LogWriter
 import co.touchlab.kermit.Message
 import co.touchlab.kermit.MessageStringFormatter
 import co.touchlab.kermit.Severity
 import co.touchlab.kermit.Tag
+import com.moonlight.composeplayground.app.crashreporting.CrashlyticsReporter
 
 /**
  * Custom implementation of Kermit [LogWriter] that logs messages and non-fatal

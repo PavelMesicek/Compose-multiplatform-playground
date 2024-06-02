@@ -1,8 +1,8 @@
 package com.moonlight.composeplayground.feature.ui.first
 
+import com.arkivanov.decompose.ComponentContext
 import com.moonlight.composeplayground.util.arch.ViewModelComponent
 import com.moonlight.composeplayground.util.ext.viewModel
-import com.arkivanov.decompose.ComponentContext
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow
 import org.koin.core.parameter.parametersOf

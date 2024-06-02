@@ -1,8 +1,8 @@
 package com.moonlight.composeplayground.app.logging
 
-import com.moonlight.composeplayground.app.android.BuildConfig
 import co.touchlab.kermit.LogWriter
 import co.touchlab.kermit.LogcatWriter
+import com.moonlight.composeplayground.app.android.BuildConfig
 
 /**
  * Returns list of [LogWriter] instances that shared [Logger] instance should use.

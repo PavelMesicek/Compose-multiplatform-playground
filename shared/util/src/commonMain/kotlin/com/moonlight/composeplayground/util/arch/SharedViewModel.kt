@@ -1,7 +1,7 @@
 package com.moonlight.composeplayground.util.arch
 
-import com.moonlight.composeplayground.util.domain.scope.UseCaseExecutionScope
 import com.arkivanov.essenty.instancekeeper.InstanceKeeper
+import com.moonlight.composeplayground.util.domain.scope.UseCaseExecutionScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.cancel

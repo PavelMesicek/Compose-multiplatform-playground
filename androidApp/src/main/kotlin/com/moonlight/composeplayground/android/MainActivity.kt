@@ -11,10 +11,10 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.arkivanov.decompose.defaultComponentContext
 import com.moonlight.composeplayground.android.ui.navigation.RootNavGraph
 import com.moonlight.composeplayground.feature.navigation.root.RootNavigation
 import com.moonlight.composeplayground.feature.navigation.root.RootNavigationFactory
-import com.arkivanov.decompose.defaultComponentContext
 
 class MainActivity : ComponentActivity() {
 

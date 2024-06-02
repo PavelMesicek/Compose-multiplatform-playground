@@ -1,11 +1,11 @@
 package com.moonlight.composeplayground.network.graphql.cache
 
-import com.moonlight.composeplayground.network.graphql.cache.NormalizedCacheKeyGenerator.Companion.KNOWN_TYPES
 import co.touchlab.kermit.Logger
 import com.apollographql.apollo3.cache.normalized.api.CacheKey
 import com.apollographql.apollo3.cache.normalized.api.CacheKeyGenerator
 import com.apollographql.apollo3.cache.normalized.api.CacheKeyGeneratorContext
 import com.apollographql.apollo3.cache.normalized.api.Record
+import com.moonlight.composeplayground.network.graphql.cache.NormalizedCacheKeyGenerator.Companion.KNOWN_TYPES
 import org.koin.core.annotation.Single
 
 private typealias Typename = String

@@ -1,8 +1,8 @@
 package com.moonlight.composeplayground.feature.ui.third
 
+import com.arkivanov.decompose.ComponentContext
 import com.moonlight.composeplayground.util.arch.ViewModelComponent
 import com.moonlight.composeplayground.util.ext.viewModel
-import com.arkivanov.decompose.ComponentContext
 import kotlinx.coroutines.flow.StateFlow
 
 internal class ThirdComponent(

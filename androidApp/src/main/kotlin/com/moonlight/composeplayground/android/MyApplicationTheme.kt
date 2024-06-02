@@ -15,8 +15,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.moonlight.composeplayground.android.ui.theme.TemplateStackAnimationProvider
 import com.arkivanov.decompose.extensions.compose.stack.animation.LocalStackAnimationProvider
+import com.moonlight.composeplayground.android.ui.theme.TemplateStackAnimationProvider
 
 @Composable
 fun MyApplicationTheme(

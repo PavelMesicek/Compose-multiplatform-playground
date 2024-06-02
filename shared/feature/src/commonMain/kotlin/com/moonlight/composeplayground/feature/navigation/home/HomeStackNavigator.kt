@@ -1,9 +1,5 @@
 package com.moonlight.composeplayground.feature.navigation.home
 
-import com.moonlight.composeplayground.feature.navigation.deeplink.DeepLinkDestination
-import com.moonlight.composeplayground.feature.navigation.root.RootSlotNavigator
-import com.moonlight.composeplayground.util.ext.asStateFlow
-import com.moonlight.composeplayground.util.ext.componentCoroutineScope
 import com.arkivanov.decompose.Child
 import com.arkivanov.decompose.ComponentContext
 import com.arkivanov.decompose.router.stack.ChildStack
@@ -12,6 +8,10 @@ import com.arkivanov.decompose.router.stack.childStack
 import com.arkivanov.decompose.router.stack.navigate
 import com.arkivanov.decompose.router.stack.pop
 import com.arkivanov.decompose.router.stack.push
+import com.moonlight.composeplayground.feature.navigation.deeplink.DeepLinkDestination
+import com.moonlight.composeplayground.feature.navigation.root.RootSlotNavigator
+import com.moonlight.composeplayground.util.ext.asStateFlow
+import com.moonlight.composeplayground.util.ext.componentCoroutineScope
 import kotlinx.coroutines.flow.StateFlow
 import org.koin.core.annotation.Single
 

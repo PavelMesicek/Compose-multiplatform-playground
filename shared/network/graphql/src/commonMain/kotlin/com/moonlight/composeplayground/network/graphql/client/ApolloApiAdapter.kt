@@ -1,6 +1,5 @@
 package com.moonlight.composeplayground.network.graphql.client
 
-import com.moonlight.composeplayground.network.graphql.result.NetworkError
 import com.apollographql.apollo3.ApolloClient
 import com.apollographql.apollo3.api.ApolloResponse
 import com.apollographql.apollo3.api.Mutation
@@ -11,6 +10,7 @@ import com.apollographql.apollo3.cache.normalized.watch
 import com.apollographql.apollo3.exception.ApolloException
 import com.apollographql.apollo3.exception.ApolloHttpException
 import com.apollographql.apollo3.exception.ApolloNetworkException
+import com.moonlight.composeplayground.network.graphql.result.NetworkError
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import org.koin.core.annotation.Single

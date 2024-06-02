@@ -1,7 +1,7 @@
 package com.moonlight.composeplayground.network.graphql.injection
 
-import com.moonlight.composeplayground.network.graphql.client.ApolloClientFactory
 import com.apollographql.apollo3.ApolloClient
+import com.moonlight.composeplayground.network.graphql.client.ApolloClientFactory
 import org.koin.core.annotation.ComponentScan
 import org.koin.core.annotation.Module
 import org.koin.core.annotation.Single

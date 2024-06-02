@@ -1,15 +1,15 @@
 package com.moonlight.composeplayground.feature.navigation.root
 
-import com.moonlight.composeplayground.feature.navigation.deeplink.DeepLinkDestination
-import com.moonlight.composeplayground.feature.navigation.deeplink.DeepLinkNavigator
-import com.moonlight.composeplayground.feature.navigation.home.HomeNavigationArgs
-import com.moonlight.composeplayground.util.ext.asStateFlow
-import com.moonlight.composeplayground.util.ext.componentCoroutineScope
 import com.arkivanov.decompose.ComponentContext
 import com.arkivanov.decompose.router.slot.ChildSlot
 import com.arkivanov.decompose.router.slot.SlotNavigation
 import com.arkivanov.decompose.router.slot.activate
 import com.arkivanov.decompose.router.slot.childSlot
+import com.moonlight.composeplayground.feature.navigation.deeplink.DeepLinkDestination
+import com.moonlight.composeplayground.feature.navigation.deeplink.DeepLinkNavigator
+import com.moonlight.composeplayground.feature.navigation.home.HomeNavigationArgs
+import com.moonlight.composeplayground.util.ext.asStateFlow
+import com.moonlight.composeplayground.util.ext.componentCoroutineScope
 import kotlinx.coroutines.flow.StateFlow
 import org.koin.core.annotation.Single
 

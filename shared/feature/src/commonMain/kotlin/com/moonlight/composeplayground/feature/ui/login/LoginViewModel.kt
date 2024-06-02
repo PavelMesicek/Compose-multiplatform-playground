@@ -1,10 +1,10 @@
 package com.moonlight.composeplayground.feature.ui.login
 
+import co.touchlab.kermit.Logger
 import com.moonlight.composeplayground.feature.navigation.root.RootSlotNavigator
 import com.moonlight.composeplayground.network.graphql.api.RickAndMortyApi
 import com.moonlight.composeplayground.network.rest.api.StarWarsApi
 import com.moonlight.composeplayground.util.arch.SharedViewModel
-import co.touchlab.kermit.Logger
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow

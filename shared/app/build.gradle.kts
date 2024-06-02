@@ -1,10 +1,10 @@
-import com.moonlight.composeplayground.gradle.configuration.ProjectSettings
-import com.moonlight.composeplayground.gradle.ext.iosTargets
 import co.touchlab.skie.configuration.DefaultArgumentInterop
 import co.touchlab.skie.configuration.EnumInterop
 import co.touchlab.skie.configuration.FlowInterop
 import co.touchlab.skie.configuration.SealedInterop
 import co.touchlab.skie.configuration.SuspendInterop
+import com.moonlight.composeplayground.gradle.configuration.ProjectSettings
+import com.moonlight.composeplayground.gradle.ext.iosTargets
 import dev.icerock.gradle.MRVisibility
 
 plugins {

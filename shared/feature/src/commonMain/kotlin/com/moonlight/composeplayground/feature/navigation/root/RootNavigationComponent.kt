@@ -1,11 +1,11 @@
 package com.moonlight.composeplayground.feature.navigation.root
 
+import com.arkivanov.decompose.ComponentContext
+import com.arkivanov.decompose.router.slot.ChildSlot
 import com.moonlight.composeplayground.feature.navigation.deeplink.DeepLinkNavigator
 import com.moonlight.composeplayground.feature.navigation.deeplink.DeepLinkResolver
 import com.moonlight.composeplayground.util.arch.ViewModelComponent
 import com.moonlight.composeplayground.util.ext.viewModel
-import com.arkivanov.decompose.ComponentContext
-import com.arkivanov.decompose.router.slot.ChildSlot
 import kotlinx.coroutines.flow.StateFlow
 import org.koin.core.component.inject
 

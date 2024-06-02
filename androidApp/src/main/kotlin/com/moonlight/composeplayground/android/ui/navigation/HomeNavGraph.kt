@@ -9,6 +9,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import com.arkivanov.decompose.ExperimentalDecomposeApi
+import com.arkivanov.decompose.extensions.compose.stack.Children
+import com.arkivanov.decompose.extensions.compose.stack.animation.predictiveback.androidPredictiveBackAnimatable
+import com.arkivanov.decompose.extensions.compose.stack.animation.predictiveback.predictiveBackAnimation
+import com.arkivanov.decompose.router.stack.ChildStack
 import com.moonlight.composeplayground.android.ui.screen.FirstScreenUi
 import com.moonlight.composeplayground.android.ui.screen.SecondScreenUi
 import com.moonlight.composeplayground.android.ui.screen.SecretScreenUi
@@ -16,11 +21,6 @@ import com.moonlight.composeplayground.android.ui.screen.ThirdScreenUi
 import com.moonlight.composeplayground.feature.navigation.home.HomeDestination
 import com.moonlight.composeplayground.feature.navigation.home.HomeEntry
 import com.moonlight.composeplayground.feature.navigation.home.HomeNavigation
-import com.arkivanov.decompose.ExperimentalDecomposeApi
-import com.arkivanov.decompose.extensions.compose.stack.Children
-import com.arkivanov.decompose.extensions.compose.stack.animation.predictiveback.androidPredictiveBackAnimatable
-import com.arkivanov.decompose.extensions.compose.stack.animation.predictiveback.predictiveBackAnimation
-import com.arkivanov.decompose.router.stack.ChildStack
 
 @Composable
 fun HomeNavGraph(

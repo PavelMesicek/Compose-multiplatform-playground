@@ -1,10 +1,10 @@
 package com.moonlight.composeplayground.feature.ui.first
 
+import co.touchlab.kermit.Logger
 import com.moonlight.composeplayground.feature.navigation.home.HomeStackNavigator
 import com.moonlight.composeplayground.resources.MR
 import com.moonlight.composeplayground.util.arch.SharedViewModel
 import com.moonlight.composeplayground.util.ext.update
-import co.touchlab.kermit.Logger
 import dev.icerock.moko.resources.desc.ResourceFormatted
 import dev.icerock.moko.resources.desc.StringDesc
 import kotlinx.coroutines.delay

@@ -1,7 +1,7 @@
 package com.moonlight.composeplayground.network.graphql.client
 
-import com.moonlight.composeplayground.network.graphql.result.CloudErrorCode
 import com.apollographql.apollo3.api.ApolloResponse
+import com.moonlight.composeplayground.network.graphql.result.CloudErrorCode
 import org.koin.core.annotation.Single
 
 /**
